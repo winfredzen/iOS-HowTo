@@ -7,7 +7,7 @@
 /** tableView的数据源 */
 @property (nonatomic, strong) NSArray *apps;
 /** 内存缓存 */
-@property (nonatomic, strong) NSMutableDictionary *images;
+@property (nonatomic, strong) NSCache *images;
 /** 队列 */
 @property (nonatomic, strong) NSOperationQueue *queue;
 /** 操作缓存 */
@@ -27,10 +27,13 @@
     }
     return _queue;
 }
--(NSMutableDictionary *)images
+-(NSCache *)images
 {
     if (_images == nil) {
-        _images = [NSMutableDictionary dictionary];
+        _images = [[NSCache alloc]init];
+        
+        //设置最多可以缓存多少个数据
+        //_images.countLimit = 4;
     }
     return _images;
 }
