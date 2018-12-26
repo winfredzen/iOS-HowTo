@@ -1,6 +1,6 @@
 raywenderlich上的一些例子
 
-**课程: [Reproducing Popular iOS Controls**](https://www.raywenderlich.com/5298-reproducing-popular-ios-controls)
+**课程: [Reproducing Popular iOS Controls](https://www.raywenderlich.com/5298-reproducing-popular-ios-controls)**
 
 Snapchat:
 
