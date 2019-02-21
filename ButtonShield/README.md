@@ -4,5 +4,11 @@
 
 效果如下：
 
-![效果]()
+![效果](https://github.com/winfredzen/iOS-HowTo/blob/master/images/003.gif)
+
+介绍了一些绘制工具：
+
++ PaintCode
++ [Kite Compositor](https://kiteapp.co/)
++ [lottie](https://github.com/airbnb/lottie-ios)
 
